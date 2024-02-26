@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const ButtonList = () => {
     return(
-        <div className="flex">
+        <div className="flex justify-center">
            <Button name = "All"/>
            <Button name = "Mixes"/>
            <Button name = "Gaming"/>
@@ -16,8 +16,10 @@ const ButtonList = () => {
            <Button name = "News"/>
            <Button name = "T-series"/>
            <Button name = "Live"/>
-           <Button name = "Watched"/>
+           {/* <Button name = "Watched"/> */}
         </div>
+    
+
     );
 };
 
