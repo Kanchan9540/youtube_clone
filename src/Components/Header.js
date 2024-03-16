@@ -86,7 +86,7 @@ const Head = () =>{
                 </a>
         </div>
         <div className="col-span-10 px-10">
-        <div>
+        <div className="flex items-center">
             <input className=" px-5 w-1/2 rounded-l-full border border-black cursor-text p-2"
              type="text"
                 value={searchQuery}
@@ -95,6 +95,8 @@ const Head = () =>{
                 onBlur={() => setShowSuggestions(false)}
              />
             <button className="border-2 border-black rounded-r-full bg-black text-white p-2">Search</button>
+            <img class="p-2 hover:bg-gray-200 ml-4  h-10 w-10 border-2 rounded-full" src="https://cdn1.iconfinder.com/data/icons/material-audio-video/21/mic-512.png" alt="Microphone icon"/>
+
             </div>
             {showSuggestions && 
             (<div className="fixed bg-white  py-2 px-2 w-[28rem] shadow-2xl rounded-xl border border-gray-100">
@@ -106,9 +108,13 @@ const Head = () =>{
             </div>
             )}
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 flex items-center">
             <img className="h-8" alt="user" src="https://imechinstitute.com/wp-content/uploads/2022/06/vector.jpeg"/>
+            <button className="bg-black text-white ml-2 rounded-full p-1 m-1 text-md">Sign In</button>
+           
+           
         </div>
+
         </div>
     );
 };
