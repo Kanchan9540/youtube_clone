@@ -109,9 +109,10 @@ const Head = () =>{
             )}
         </div>
         <div className="col-span-1 flex items-center">
+        <img className="h-8" alt="user" src="https://cdn.pixabay.com/photo/2020/10/31/06/28/youtube-bell-icon-5700370_1280.png"/>
             <img className="h-8" alt="user" src="https://imechinstitute.com/wp-content/uploads/2022/06/vector.jpeg"/>
-            <button className="bg-black text-white ml-2 rounded-full p-1 m-1 text-md">Sign In</button>
-           
+            <button className="bg-black text-white ml-2 rounded-full p-2 m-2 text-md">Sign In</button>
+            
            
         </div>
 
